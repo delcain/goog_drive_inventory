@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Credenciais e configuração local
+*.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Banco de dados e relatórios gerados
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.sqlite-*
+relatorios/
+*.log
+
+# Editor e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
